@@ -19,9 +19,14 @@
 		<Content Include="ClientApp\src\components\Body\Body.js" />
 		<Content Include="ClientApp\src\components\Body\Documents.js" />
 		<Content Include="ClientApp\src\components\Body\Home.js" />
+		<Content Include="ClientApp\src\components\Body\Home\Laws.js" />
+		<Content Include="ClientApp\src\components\Body\Home\ObjectInfo.js" />
+		<Content Include="ClientApp\src\components\Body\Home\PotentialThreats.js" />
 		<Content Include="ClientApp\src\components\Body\Home\SecurityObjects.js" />
 		<Content Include="ClientApp\src\components\Footer\Footer.js" />
 		<Content Include="ClientApp\src\components\Header\Header.js" />
+		<Content Include="ClientApp\src\consts\laws.js" />
+		<Content Include="ClientApp\src\consts\objects.js" />
 		<Content Include="ClientApp\src\styles\common.css" />
 		<None Remove="$(SpaRoot)**" />
 		<None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
