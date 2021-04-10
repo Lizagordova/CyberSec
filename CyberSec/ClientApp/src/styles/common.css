@@ -52,6 +52,9 @@
     font-size: 1.5em;
 }
 
+.objectInfoRow {
+    margin-top: 3%;
+}
 @media (max-width: 500px) {
     
 }

@@ -30,8 +30,8 @@ class Header extends Component {
                 {this.renderMenu()}
                 <Switch>
                     <Route exact path='/home/' component={Home} />
-                    <Route exact path='/documents' component={Documents} />
                     <Route exact path='/laws' component={Laws}/>
+                    <Route exact path='/documents' component={Documents} />
                     <Redirect to='/home' />
                 </Switch>
             </>
